@@ -52,7 +52,7 @@ $products = array(
       'name' => 'Mie Jontor',
       'image' => 'image/miejontor.jpeg',
       'price' => '$20',
-      'description' => 'Mie dengan bumbu pedas',
+      'description' => 'Mie dengan dibumbu pedas',
       'sold' => 500,
       'rating' => 4.9
   ),
@@ -60,10 +60,26 @@ $products = array(
       'name' => 'Mie Lidi',
       'image' => 'image/mielidi.jpeg',
       'price' => '$20',
-      'description' => 'Mie kering di bumbu pedas',
+      'description' => 'Mie kering di bumbu i pedas',
       'sold' => 100,
       'rating' => 4.5
-  )
+  ),
+  array(
+    'name' => 'Cirambay',
+    'image' => 'image/cirambai.jpeg',
+    'price' => '$10',
+    'description' => 'Aci ngambai di bumbu pedas',
+    'sold' => 80,
+    'rating' => 4.5
+    ),
+    array(
+        'name' => 'Geprek',
+        'image' => 'image/geprek.jpeg',
+        'price' => '$20',
+        'description' => 'Ayam geprek sambal pedas',
+        'sold' => 500,
+        'rating' => 5.0
+    ),
 );
 ?>
 
@@ -79,7 +95,7 @@ $products = array(
 </head>
 <body background="image/baground.jpeg">
    <div class="container">
-      <h1 class="product-title">Produk Kita</h1>
+      <h1 class="product-title">Produk Kami</h1>
          <div class="products">
             <?php foreach ($products as $product): ?>
                   <div class="product">
